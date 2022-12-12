@@ -1,8 +1,11 @@
 {
-  "name": "CLEAN-CACHE-CONTROL",
+  "name": "CleanCacheControl",
   "version": "1.0.0",
   "description": "Estudando Testes",
   "main": "index.js",
+  "scripts": {
+    "test":"jest --no-cache --watchAll"
+  },
   "author": "Reytler Souza",
   "license": "MIT",
   "devDependencies": {
